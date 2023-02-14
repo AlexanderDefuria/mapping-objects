@@ -11,6 +11,10 @@ import locationIcon from "./images/location.svg";
 
 import { RMap, ROSM, RLayerVector, RFeature, ROverlay, RStyle } from "rlayers";
 
+// openlayers is powering most of the mapping stuff, and rlayers is providing reactjs bindings for everything
+// here are some docs for rlayers: https://mmomtchev.github.io/rlayers/api/, https://mmomtchev.github.io/rlayers, 
+
+
 // pass an array formatted as [lat, long] as a prop to this class to create a marker on the map
 class MapMarker extends React.Component<any, any> {  // using <any, any> because I'm not very familar with typescript
 
